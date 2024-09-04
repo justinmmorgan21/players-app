@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   get "/players" => "players#index"
-  post "/player" => "players#create"
+  post "/players" => "players#create"
   get "/players/:id" => "players#show"
   patch "players/:id" => "players#update"
   delete "players/:id" => "players#delete"
