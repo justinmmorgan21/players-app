@@ -9,3 +9,4 @@
 #   end
 Player.create(name: "Geno Smith", team: "SEA", position: "QB", points: 17.6)
 Player.create(name: "Kenneth Walker III", team: "SEA", position: "RB", points: 14.9)
+Player.create(name: "DK Metcalf", team: "SEA", position: "WR", points: 16.8)
